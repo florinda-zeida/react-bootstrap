@@ -1,0 +1,15 @@
+.tab-content {
+  background: rgb(224, 181, 181);
+  padding: 1em;
+  min-height: 150px;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 6px 12px rgba(0,0,0, 0.05);
+  margin-top: -7px;
+}
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+  color: $colour-secondary;
+  background: rgb(224, 181, 181);
+  border-color: rgb(224, 181, 181);
+  border-radius: 6px 6px 0 0;
+}
